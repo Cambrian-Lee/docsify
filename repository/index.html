@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<div id="app">Please wait...</div>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,7 +14,11 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
   <!-- Docsify v4 -->
